@@ -1,0 +1,22 @@
+lmark = {
+"type": "FeatureCollection",
+"name": "lmark",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "OID_": 0, "name": "UPCA Academic Heritage Monument", "Snippet": "L.14", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 26 }, "geometry": { "type": "Point", "coordinates": [ 121.242649555000085, 14.166328936000072 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Philippine Pegasus", "Snippet": "L.10", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 27 }, "geometry": { "type": "Point", "coordinates": [ 121.239573061000087, 14.165512333000034 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Thai Pavilion", "Snippet": "L.12", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 28 }, "geometry": { "type": "Point", "coordinates": [ 121.239956617000075, 14.163306971000052 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Grandstand", "Snippet": "L.06", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 31 }, "geometry": { "type": "Point", "coordinates": [ 121.242751479000063, 14.16081030800007 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Carillon Tower", "Snippet": "L.04", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 32 }, "geometry": { "type": "Point", "coordinates": [ 121.242392063, 14.159296693000043 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Alumni Gazebo", "Snippet": "L.01", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 34 }, "geometry": { "type": "Point", "coordinates": [ 121.242703199000076, 14.159281089000045 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Ani Sculpture", "Snippet": "L.03", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 35 }, "geometry": { "type": "Point", "coordinates": [ 121.24348372200005, 14.159642589000041 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Marya Scupture", "Snippet": "L.09", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 36 }, "geometry": { "type": "Point", "coordinates": [ 121.243368387000046, 14.159551564000024 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Rafael Palma Bridge", "Snippet": "L.11", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 41 }, "geometry": { "type": "Point", "coordinates": [ 121.240932941000096, 14.164050763000034 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "The Oblation Statue", "Snippet": "L.13", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 42 }, "geometry": { "type": "Point", "coordinates": [ 121.241549850000069, 14.165054618000056 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Ang Tao", "Snippet": "L.02", "PopupInfo": null, "HasLabel": -1, "LabelID": 0, "orig_ogc_f": 43 }, "geometry": { "type": "Point", "coordinates": [ 121.242955327000118, 14.166890674000054 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Luntian Forest Park", "Snippet": "L.08", "PopupInfo": null, "HasLabel": 0, "LabelID": 0, "orig_ogc_f": 65 }, "geometry": { "type": "Point", "coordinates": [ 121.241567890312041, 14.166305403743547 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Kapit-kapit Monument", "Snippet": "L.07", "PopupInfo": null, "HasLabel": 0, "LabelID": 0, "orig_ogc_f": 68 }, "geometry": { "type": "Point", "coordinates": [ 121.24259143017494, 14.159568717548687 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Dao Tree", "Snippet": "L.05", "PopupInfo": null, "HasLabel": 0, "LabelID": 0, "orig_ogc_f": 0 }, "geometry": { "type": "Point", "coordinates": [ 121.241286847005412, 14.16296383040963 ] } },
+{ "type": "Feature", "properties": { "OID_": 0, "Name": "Pili-Kanluran Bridge", "Snippet": "L.15", "PopupInfo": null, "HasLabel": 0, "LabelID": 0, "orig_ogc_f": 0 }, "geometry": { "type": "Point", "coordinates": [ 121.245471254975826, 14.162978856208762 ] } }
+]
+}

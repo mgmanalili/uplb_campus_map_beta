@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>UPLB Campus Map </title>
+    <link rel="icon" href="../static/img/uplb.png"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">  
+
+    <link rel="stylesheet" href="../static/css/leaflet-sidebar.css" />
+    <link rel="stylesheet" href="../static/css/header.css" />
+    <link rel="stylesheet" href="../static/lib/leaflet/leaflet.css"/>
+    <link rel="stylesheet" href="static/lib/marker/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.css" />
+    <link href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' rel='stylesheet' />
+    <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.1.0/leaflet.css'>
+
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        html, body, #map {
+            height: 91.2%; /* ugly way of adjusting map height */
+            font: 10pt "Helvetica Neue", Arial, Helvetica, sans-serif;
+        }
+
+        .lorem {
+            font-style: italic;
+            text-align: justify;
+            color: #AAA;
+        }
+    </style>
+</head>
+
+<body>
+
+	<div class="topnav" id="myTopnav">	
+		<img src="../static/img/uplb1.png" height="50px" width="55px" style="float: left; margin-left:3px;margin-top:3px;">
+		<!--img src="img/upsilon1.png" height="45px" width="45px"  style="float: left; margin-left:20px;margin-top:5px;"-->
+		<!--img src="img/hilaga.png" height="38px" width="76px"  style="float: left; margin-left:20px;margin-top:7px;"-->
+		<a href="#home" class="active" >UPLB Campus Map</a> 
+<!--      <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars"></i></a> -->
+	</div> 
+<!--img src="img/usp.png" height="49" width="55" style="float: left;"-->
+
+    <div id="map"></div>
+    <div id="sidebar" class="leaflet-sidebar collapsed">
+        <!-- Nav tabs -->
+        <div class="leaflet-sidebar-tabs">
+            <ul role="tablist">
+				<!--force to refresh map when undo is clicked-->
+<!---------------------------------------------- IMPORTANT ------------------------------------------------------------->
+<!------------------------UPDATE NEXT LINE WHEN RENAMING THIS DOCUMENT------------------------>
+<!---------------------------------------------- IMPORTANT ------------------------------------------------------------->
+                <li><a role="tab"><i class="fa fa-home" onclick="goBack()"></i></a></li>
+
+            </ul>
+        </div>
+
+    </div>
+    <script src="https://unpkg.com/leaflet@1.2.0/dist/leaflet.js"
+        integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log=="
+        crossorigin=""></script>
+    <script src="../static/js/leaflet-sidebar.js"></script>
+    <script src="../static/data/lmark.geojson"></script>
+    <script src="../static/data/route.geojson"></script>
+    <script src="../static/data/struc.geojson"></script>
+    <script src="../static/lib/leaflet/leaflet.js"></script>
+    <script src="https://unpkg.com/leaflet-control-geocoder/dist/Control.Geocoder.js"></script>
+    <script src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet-src.js'></script>
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.1.0/leaflet.js'></script>
+    <script src='https://cdn.osmbuildings.org/OSMBuildings-Leaflet.js'></script>
+    <script src='https://cdn.osmbuildings.org/Leaflet.draw/0.2.0/leaflet.draw.js'></script>
+    <script src="static/index.js"></script>
+
+    <script>
+    function goBack() {
+        window.history.back();
+    }
+    </script>
+
+    <script>
+      function initMap() {
+        var uplb = {lat: 14.161970, lng: 121.241344};
+        var sv = new google.maps.StreetViewService();
+
+        var panorama = new google.maps.StreetViewPanorama(
+          document.getElementById('pano'),
+        {
+        addressControlOptions: {
+          position: google.maps.ControlPosition.BOTTOM_CENTER
+        }
+        });
+
+        // Set up the map.
+        var map = new google.maps.Map(document.getElementById('map'), {
+          center: uplb,
+          zoom: 15,
+          streetViewControl: true,
+          mapTypeControl: true,
+          mapTypeControlOptions: {
+            position: "mapTypeControlOptionsPosition.TOP_RIGHT"
+          }
+        });
+
+
+        // Set the initial Street View camera to the center of the map
+        sv.getPanorama({location: uplb, radius: 50}, processSVData);
+
+        // Look for a nearby Street View panorama when the map is clicked.
+        // getPanorama will return the nearest pano when the given
+        // radius is 50 meters or less.
+        map.addListener('click', function(event) {
+          sv.getPanorama({location: event.latLng, radius: 50}, processSVData);
+        });
+      }
+    </script>
+    <script async defer
+    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC0vo7cGsTU4V1rp8UnQEWNHhJO8gJB-9M&callback=initMap">
+    </script>
+    
+</body>
+</html>
