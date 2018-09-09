@@ -1,6 +1,5 @@
 runtime: python
 env: flex
-entrypoint: gunicorn -b :$PORT main: app
 api_version: 1
 
 handlers:
