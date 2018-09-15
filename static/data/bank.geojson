@@ -1,0 +1,132 @@
+bank = {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-15T12:48:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382846622",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Lopez Avenue",
+        "amenity": "bank",
+        "name": "China Bank Savings",
+        "old_name": "Plantersbank",
+        "operator": "China Bank Savings, Inc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2422519,
+          14.1779264
+        ]
+      },
+      "id": "node/382846622"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/428740895",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Jose R. Velasco Avenue",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "UP Los Baños",
+        "name": "China Bank Savings",
+        "old_name": "Plantersbank",
+        "operator": "China Bank Savings, Inc."
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.242692,
+          14.1683669
+        ]
+      },
+      "id": "node/428740895"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790708767",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Victoria M. Ela Avenue",
+        "amenity": "bank",
+        "branch": "UP Los Baños",
+        "name": "Landbank - UP Los Baños Branch",
+        "opening_hours": "Mo-Fr 08:30-15:00",
+        "operator": "Land Bank of the Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2438285,
+          14.1671067
+        ]
+      },
+      "id": "node/790708767"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/791218668",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Lopez Avenue",
+        "amenity": "bank",
+        "name": "Rural Bank of Mabitac"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2428909,
+          14.1766044
+        ]
+      },
+      "id": "node/791218668"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1497254664",
+        "addr:city": "Los Baños",
+        "addr:housename": "Olivarez Plaza",
+        "amenity": "bank",
+        "atm": "yes",
+        "branch": "Los Baños",
+        "name": "Metrobank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2392697,
+          14.1794931
+        ]
+      },
+      "id": "node/1497254664"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3877677202",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "bank",
+        "name": "Planbank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2432595,
+          14.1749691
+        ]
+      },
+      "id": "node/3877677202"
+    }
+  ]
+}

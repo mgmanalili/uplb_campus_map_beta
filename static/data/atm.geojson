@@ -1,0 +1,355 @@
+atm = {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-15T12:48:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/630121346",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "atm",
+        "cash_in": "no",
+        "currency:PHP": "yes",
+        "currency:others": "no",
+        "drive_through": "no",
+        "fee": "some",
+        "name": "BPI",
+        "network": "Expressnet",
+        "operator": "Bank of the Philippine Islands",
+        "ref": "TID 0155"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2437303,
+          14.1676918
+        ]
+      },
+      "id": "node/630121346"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/630121578",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "atm",
+        "name": "PNB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2438674,
+          14.1678058
+        ]
+      },
+      "id": "node/630121578"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/995847418",
+        "addr:city": "Los Baños",
+        "addr:housename": "Harrar Hall",
+        "addr:postcode": "4031",
+        "addr:street": "Pili Drive",
+        "amenity": "atm",
+        "level": "0",
+        "name": "BPI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2548766,
+          14.1690989
+        ]
+      },
+      "id": "node/995847418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1427972759",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Los Baños - Bay Road",
+        "amenity": "atm",
+        "name": "BPI",
+        "osm_id": "1427972759",
+        "timestamp": "2014-03-08T09:19:13Z",
+        "type": "atm"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2413822,
+          14.1786433
+        ]
+      },
+      "id": "node/1427972759"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1513696378",
+        "addr:city": "Los Baños",
+        "addr:housename": "Los Baños Doctors Hospital and Medical Center",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "atm",
+        "name": "BPI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2433463,
+          14.170938
+        ]
+      },
+      "id": "node/1513696378"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1520634376",
+        "amenity": "atm",
+        "name": "PSBank",
+        "operator": "Philippine Savings Bank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2625266,
+          14.1763046
+        ]
+      },
+      "id": "node/1520634376"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1520634380",
+        "amenity": "atm",
+        "name": "BPI",
+        "operator": "Bank of the Philippine Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2625158,
+          14.1765022
+        ]
+      },
+      "id": "node/1520634380"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2989342549",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "atm",
+        "cash_in": "no",
+        "currency:PHP": "yes",
+        "currency:others": "no",
+        "drive_through": "no",
+        "fee": "some",
+        "name": "BPI",
+        "network": "Expressnet",
+        "operator": "Bank of the Philippine Islands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2437243,
+          14.167683
+        ]
+      },
+      "id": "node/2989342549"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2989342550",
+        "amenity": "atm",
+        "cash_in": "yes",
+        "currency:PHP": "yes",
+        "currency:others": "no",
+        "drive_through": "no",
+        "fee": "some",
+        "name": "BPI",
+        "network": "Expressnet",
+        "operator": "Bank of the Philippine Islands",
+        "ref": "TID 9852"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2386311,
+          14.1791326
+        ]
+      },
+      "id": "node/2989342550"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3377901120",
+        "amenity": "atm",
+        "cash_in": "no",
+        "currency:PHP": "yes",
+        "currency:others": "no",
+        "drive_through": "no",
+        "fee": "some",
+        "name": "BPI",
+        "network": "Expressnet",
+        "operator": "Bank of the Philippine Islands",
+        "ref": "TID 7555"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2386277,
+          14.1791101
+        ]
+      },
+      "id": "node/3377901120"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3377901121",
+        "amenity": "atm",
+        "cash_in": "no",
+        "currency:PHP": "yes",
+        "currency:others": "no",
+        "drive_through": "no",
+        "fee": "some",
+        "name": "BPI",
+        "network": "Expressnet",
+        "operator": "Bank of the Philippine Islands",
+        "ref": "TID 7554"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.238629,
+          14.1791184
+        ]
+      },
+      "id": "node/3377901121"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3377901122",
+        "amenity": "atm",
+        "cash_in": "no",
+        "currency:PHP": "yes",
+        "currency:others": "no",
+        "drive_through": "no",
+        "fee": "some",
+        "name": "BPI",
+        "network": "Expressnet",
+        "operator": "Bank of the Philippine Islands",
+        "ref": "TID 7553"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2386301,
+          14.1791256
+        ]
+      },
+      "id": "node/3377901122"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3877677201",
+        "addr:city": "Los Baños",
+        "addr:housename": "Los Baños Doctors Hospital and Medical Center",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "atm",
+        "name": "PNB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2433491,
+          14.170932
+        ]
+      },
+      "id": "node/3877677201"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4271482690",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "atm",
+        "cash_in": "no",
+        "currency:PHP": "yes",
+        "currency:others": "no",
+        "drive_through": "no",
+        "fee": "some",
+        "name": "BDO",
+        "network": "BancNet",
+        "operator": "BDO Unibank"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2437201,
+          14.1676743
+        ]
+      },
+      "id": "node/4271482690"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5158186238",
+        "amenity": "atm",
+        "operator": "BPI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2433094,
+          14.1709873
+        ]
+      },
+      "id": "node/5158186238"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5158194129",
+        "amenity": "atm",
+        "operator": "BPI"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2441769,
+          14.1707789
+        ]
+      },
+      "id": "node/5158194129"
+    }
+  ]
+}

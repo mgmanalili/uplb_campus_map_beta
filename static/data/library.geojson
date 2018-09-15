@@ -1,0 +1,111 @@
+library = {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-15T12:44:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/391723445",
+        "addr:city": "Los Baños",
+        "addr:housenumber": "54",
+        "addr:postcode": "4031",
+        "addr:street": "Pedro R. Sandoval Avenue",
+        "alt_name": "ULib",
+        "amenity": "library",
+        "internet_access": "wlan",
+        "name": "University Library",
+        "opening_hours": "Mo-Fr 08:00-20:00; Sa 08:00-17:00",
+        "phone": "+63-49-5362235",
+        "start_date": "1973-10-09",
+        "website": "http://www.library.uplb.edu.ph/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2390043,
+          14.1655654
+        ]
+      },
+      "id": "node/391723445"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/454087173",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Makiling Road",
+        "amenity": "library",
+        "level": "1",
+        "name": "CFNR Library",
+        "opening_hours": "Mo-Fr 08:00-17:00; Sa 08:00-12:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2354129,
+          14.1535665
+        ]
+      },
+      "id": "node/454087173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1187299418",
+        "amenity": "library",
+        "name": "CEAT Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2476309,
+          14.1614511
+        ]
+      },
+      "id": "node/1187299418"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3210088354",
+        "addr:city": "Los Baños",
+        "addr:housename": "Gil F. Saguiguit Hall",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "library",
+        "level": "0",
+        "name": "College of Human Ecology Library",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2422816,
+          14.16486
+        ]
+      },
+      "id": "node/3210088354"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3328100830",
+        "addr:housename": "Chandler Hall",
+        "amenity": "library",
+        "level": "0",
+        "name": "IRRI Library"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2543232,
+          14.1683447
+        ]
+      },
+      "id": "node/3328100830"
+    }
+  ]
+}

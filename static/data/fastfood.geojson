@@ -1,0 +1,476 @@
+fastfood = {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-15T12:42:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/582458481",
+        "addr:city": "Los Baños",
+        "addr:housenumber": "10329",
+        "addr:postcode": "4031",
+        "addr:street": "Francisco O. Santos",
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "internet_access": "no",
+        "name": "Uncle Jet's Burger Joint",
+        "website": "https://www.facebook.com/UncleJetsBurgerJoint"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2414313,
+          14.1687729
+        ]
+      },
+      "id": "node/582458481"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/630120750",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "level": "0",
+        "name": "McDonald's",
+        "name:en": "McDonald's",
+        "name:ko": "디몰 맥도날드",
+        "name:ru": "Макдональдс",
+        "opening_hours": "24/7",
+        "takeout": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2436248,
+          14.1675784
+        ]
+      },
+      "id": "node/630120750"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/774674655",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Jose R. Velasco Avenue",
+        "amenity": "fast_food",
+        "cuisine": "sandwich",
+        "name": "Jange's Stuff Crunch",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.241725,
+          14.1678868
+        ]
+      },
+      "id": "node/774674655"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790107619",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.243178,
+          14.1743592
+        ]
+      },
+      "id": "node/790107619"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1423677323",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Los Baños - Bay Road",
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "name": "Chowking",
+        "opening_hours": "Mo-Su 06:00-22:00",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2417094,
+          14.1783295
+        ]
+      },
+      "id": "node/1423677323"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1497254658",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "cuisine": "chinese",
+        "level": "0",
+        "name": "Chowking",
+        "opening_hours": "24/7",
+        "phone": "+63-49-5369999",
+        "takeout": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2438266,
+          14.1677971
+        ]
+      },
+      "id": "node/1497254658"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1637363252",
+        "addr:city": "Los Baños",
+        "addr:housename": "Olivarez Plaza",
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "name": "Jollibee"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2392261,
+          14.1791212
+        ]
+      },
+      "id": "node/1637363252"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1637363253",
+        "addr:city": "Los Baños",
+        "addr:housename": "Olivarez Plaza",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "name": "Pizza Hut"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2389839,
+          14.1791651
+        ]
+      },
+      "id": "node/1637363253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2108118050",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Francisco O. Santos",
+        "amenity": "fast_food",
+        "name": "Trese Siyete",
+        "website": "https://www.facebook.com/tresesiyeteUPLB"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2417218,
+          14.168883
+        ]
+      },
+      "id": "node/2108118050"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2127300003",
+        "addr:city": "Los Baños",
+        "addr:housename": "Los Baños Centtro Mall",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "branch": "LB Centro",
+        "cuisine": "Bibimbap;Chicken;Bulgogi;Korean",
+        "level": "1",
+        "name": "Bonchon",
+        "opening_hours": "24/7",
+        "smoking": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2439105,
+          14.1706284
+        ]
+      },
+      "id": "node/2127300003"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2138694516",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Ruby",
+        "amenity": "fast_food",
+        "name": "Lord Rich Snack & Food Haus"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2412889,
+          14.1687153
+        ]
+      },
+      "id": "node/2138694516"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2141102095",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "level": "0",
+        "name": "Minute Burger"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2441595,
+          14.169524
+        ]
+      },
+      "id": "node/2141102095"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2405757710",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "name": "Petrinos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2421156,
+          14.1781247
+        ]
+      },
+      "id": "node/2405757710"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2457045305",
+        "amenity": "fast_food",
+        "name": "Greenwich"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2391244,
+          14.179161
+        ]
+      },
+      "id": "node/2457045305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3602476356",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "cuisine": "burger",
+        "name": "Barangay Burger",
+        "payment:cash": "yes",
+        "smoking": "no",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2442647,
+          14.1690373
+        ]
+      },
+      "id": "node/3602476356"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3602476362",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "cuisine": "pizza",
+        "level": "0",
+        "name": "Pizza Hut",
+        "payment:cash": "yes",
+        "takeout": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2440877,
+          14.1684994
+        ]
+      },
+      "id": "node/3602476362"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3925340143",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "level": "0",
+        "name": "Lugaw Royal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2436239,
+          14.1705591
+        ]
+      },
+      "id": "node/3925340143"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4861251321",
+        "amenity": "fast_food",
+        "name": "137 Burgers",
+        "name:en": "137 Burgers"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2411075,
+          14.1690714
+        ]
+      },
+      "id": "node/4861251321"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4885812253",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "cuisine": "kebab",
+        "name": "Turks",
+        "opening_hours": "Mo-Su 09:00-21:00",
+        "takeaway": "yes",
+        "wheelchair": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2438172,
+          14.1676585
+        ]
+      },
+      "id": "node/4885812253"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5158194134",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.24295,
+          14.1781482
+        ]
+      },
+      "id": "node/5158194134"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5158194223",
+        "amenity": "fast_food"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2425431,
+          14.1768186
+        ]
+      },
+      "id": "node/5158194223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5436465141",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "fast_food",
+        "cuisine": "Rice_Meal;Chicken;Beef;Pork",
+        "delivery": "no",
+        "drive_through": "no",
+        "name": "Doymeals Eatshop",
+        "outdoor_seating": "no",
+        "takeaway": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2442599,
+          14.1688209
+        ]
+      },
+      "id": "node/5436465141"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/5608181822",
+        "amenity": "fast_food",
+        "name": "Goldilocks Los Baños"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2418566,
+          14.1785991
+        ]
+      },
+      "id": "node/5608181822"
+    }
+  ]
+}

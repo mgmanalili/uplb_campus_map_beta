@@ -1,0 +1,493 @@
+cafe = {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-15T12:38:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382059223",
+        "addr:city": "Los Baños",
+        "addr:housename": "Ankers",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "branch": "Los Baños Grove",
+        "name": "Serendipitea",
+        "opening_hours": "24/7",
+        "smoking": "no",
+        "smoking:outdoors": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2442872,
+          14.1696513
+        ]
+      },
+      "id": "node/382059223"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/767038305",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Los Baños - Bay Road",
+        "amenity": "cafe",
+        "internet_access": "wlan",
+        "name": "Cafe Antonio",
+        "opening_hours": "Mo-Tu 11:00-22:00; We off; Th-Sa 11:00-22:00; Su 13:00-22:00",
+        "smoking": "no",
+        "smoking:outdoors": "yes",
+        "website": "http://cafeantonioelbi.blogspot.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2518849,
+          14.1766693
+        ]
+      },
+      "id": "node/767038305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/995847420",
+        "addr:city": "Los Baños",
+        "addr:housename": "Harrar Hall",
+        "addr:postcode": "4031",
+        "addr:street": "Pili Drive",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Beanhub",
+        "opening_hours": "Mo-Su 07:00-17:30",
+        "smoking": "outside"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2547179,
+          14.1690353
+        ]
+      },
+      "id": "node/995847420"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1426668938",
+        "addr:city": "Los Baños",
+        "addr:housename": "ES Plaza",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Bon Appetea",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2440146,
+          14.168833
+        ]
+      },
+      "id": "node/1426668938"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1426668940",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "name": "Tea to Jeri's Tea Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2438033,
+          14.1682823
+        ]
+      },
+      "id": "node/1426668940"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1548278880",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Ruby",
+        "amenity": "cafe",
+        "name": "Moonleaf",
+        "website": "http://moonleafteashop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2408212,
+          14.1702587
+        ]
+      },
+      "id": "node/1548278880"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2039831714",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Coffee Blends",
+        "smoking": "no",
+        "smoking:outdoors": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2437653,
+          14.1702344
+        ]
+      },
+      "id": "node/2039831714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2074588278",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Andres P. Aligbut Street",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Il Tazze",
+        "operator": "UPLB Grange Association",
+        "smoking": "no",
+        "smoking:outdoors": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2399674,
+          14.1648241
+        ]
+      },
+      "id": "node/2074588278"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2169969828",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "name": "Bubble G Milk Tea"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.244155,
+          14.1681975
+        ]
+      },
+      "id": "node/2169969828"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2169969846",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Arcade",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Starbucks Coffee",
+        "opening_hours": "Mo-Su 06:30-23:00",
+        "start_date": "2018-03"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2435006,
+          14.1678799
+        ]
+      },
+      "id": "node/2169969846"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2349008544",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Moonleaf",
+        "website": "http://moonleafteashop.com/"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2440733,
+          14.1684762
+        ]
+      },
+      "id": "node/2349008544"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2380792666",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Siving",
+        "amenity": "cafe",
+        "name": "Satya Graha Cafe",
+        "opening_hours": "Mo-Su 16:00-23:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.244076,
+          14.1738159
+        ]
+      },
+      "id": "node/2380792666"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2385949407",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Cafe Ella",
+        "opening_hours": "Mo 07:30-23:00; Tu-Sa 07:00-23:30; Su 06:30-23:00",
+        "smoking": "no",
+        "smoking:outdoors": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.244,
+          14.1704759
+        ]
+      },
+      "id": "node/2385949407"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3073349115",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Ruby",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Saleefran Cafe",
+        "opening_hours": "Mo-Fr 10:00-22:00; Sa,Su 16:00-22:00",
+        "smoking": "no",
+        "website": "https://www.facebook.com/saleefrancafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2415153,
+          14.1680662
+        ]
+      },
+      "id": "node/3073349115"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3158988525",
+        "addr:city": "Los Baños",
+        "addr:housename": "ES Plaza",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "cuisine": "donut",
+        "level": "0",
+        "name": "Lil' Orbits Mini Donuts",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2438854,
+          14.1688419
+        ]
+      },
+      "id": "node/3158988525"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3174259154",
+        "addr:city": "Los Baños",
+        "addr:housename": "ES Plaza",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "internet_access": "no",
+        "level": "0",
+        "name": "Kaye's Gallery",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2439381,
+          14.1687907
+        ]
+      },
+      "id": "node/3174259154"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3456843704",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "cuisine": "doughnut",
+        "level": "0",
+        "name": "Dunkin' Donuts",
+        "takeout": "only"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2437704,
+          14.1677544
+        ]
+      },
+      "id": "node/3456843704"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3777706877",
+        "addr:city": "Los Baños",
+        "addr:housename": "Vega Centre",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "level": "0",
+        "name": "Entablado",
+        "opening_hours": "Mo-Sa 11:00-21:30",
+        "smoking": "no",
+        "website": "https://www.facebook.com/entabladolosbanos",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2439286,
+          14.1676517
+        ]
+      },
+      "id": "node/3777706877"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3872270742",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Cordillera",
+        "amenity": "cafe",
+        "name": "Holland Tulips Cafe",
+        "wheelchair": "limited"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2393803,
+          14.1684064
+        ]
+      },
+      "id": "node/3872270742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4189413098",
+        "amenity": "cafe",
+        "cuisine": "regional",
+        "internet_access": "no",
+        "name": "Cafe Mirielle",
+        "opening_hours": "0700-2200"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2428435,
+          14.1727628
+        ]
+      },
+      "id": "node/4189413098"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562953526",
+        "addr:city": "Los Baños",
+        "addr:housename": "Residencia Juannata",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "level": "2",
+        "name": "Boards UP",
+        "opening_hours": "Mo-Sa 14:00-23:00",
+        "website": "https://www.facebook.com/BoardsUPcafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2440891,
+          14.1696307
+        ]
+      },
+      "id": "node/4562953526"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4562953527",
+        "addr:city": "Los Baños",
+        "addr:housename": "Residencia Juannata",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "cafe",
+        "level": "1",
+        "name": "Productivity Café",
+        "opening_hours": "Mo 11:00-24:00; Tu-Fr 00:00-05:00,11:00-24:00; Sa,Su 10:00-22:00",
+        "website": "https://www.facebook.com/ProductivityCafePH"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2440945,
+          14.1696098
+        ]
+      },
+      "id": "node/4562953527"
+    }
+  ]
+}

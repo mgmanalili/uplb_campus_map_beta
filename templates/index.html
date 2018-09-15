@@ -4,6 +4,10 @@
     <title>UPLB Campus Map </title>
     <link rel="icon" href="static/img/uplb1.png"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/regular.css" integrity="sha384-ZlNfXjxAqKFWCwMwQFGhmMh3i89dWDnaFU2/VZg9CvsMGA7hXHQsPIqS+JIAmgEq" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/fontawesome.css" integrity="sha384-1rquJLNOM3ijoueaaeS5m+McXPJCGdr5HcA03/VHXxcp2kX2sUrQDmFc3jR5i/C7" crossorigin="anonymous">
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">  
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.2.0/dist/leaflet.css"
         integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ=="
@@ -12,6 +16,7 @@
     <link rel="stylesheet" href="static/css/header.css" />
     <link rel="stylesheet" href="static/css/leaflet-search.css" />
     <link rel="stylesheet" href="static/css/query.css" />
+    <link rel="stylesheet" href="static/css/L.Control.locate.min.css" />
     <link rel="stylesheet" href="static/lib/leaflet/leaflet.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.0.4/MarkerCluster.Default.css" />
@@ -19,6 +24,7 @@
     <link href='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet.css' rel='stylesheet' />
     <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.1.0/leaflet.css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
     <style>
         body {
             padding: 0;
@@ -42,33 +48,28 @@
 
 	<div class="topnav" id="myTopnav">	
 		<img src="static/img/uplb1.png" height="50px" width="55px" style="float: left; margin-left:3px;margin-top:3px;">
-		<!--img src="img/upsilon1.png" height="45px" width="45px"  style="float: left; margin-left:20px;margin-top:5px;"-->
+		<img src="static/img/upsilon1.png" height="45px" width="45px"  style="float: left; margin-left:20px;margin-top:5px;">
 		<!--img src="img/hilaga.png" height="38px" width="76px"  style="float: left; margin-left:20px;margin-top:7px;"-->
 		<a>UPLB Campus Map</a>
 	</div>
 
     <div id="map"></div>
-    <div class="leaflet-control-container">
+    <!--div class="leaflet-control-container">
         <div class="leaflet-top leaflet-right">
           <div id="overpass-api-controls" class="leaflet-bar leaflet-control">
             <input id="query-textfield" size="40" placeholder="e.g. amenity = cafe, restaurant, college, school" >
             <input id="query-button" type="button" value="Search Non-UPLB Features">
           </div>
         </div>
-      </div>
+      </div-->
 
-    </div>
     <div id="sidebar" class="leaflet-sidebar collapsed">
         <!-- Nav tabs -->
         <div class="leaflet-sidebar-tabs">
             <ul role="tablist">
-                <li><a href="#myModal" role="button" class="fa fa-info" class="btn" data-toggle="modal"></a></li>
+                <li><a href="#myInfo" role="button" class="fas fa-info-circle" class="btn" data-toggle="modal"></a></li>
 				<li><a class="fa fa-home" onClick="window.location.reload()" ></a></li>
-				<li><a href="{{ url_for('static', filename='uplb_sv.html') }}" role="tab"><i class="fa fa-male"></i></a></li>
-                <!--li><a href="#participate" role="tab" class="fas fa-hands-helping"></a></li-->
-                <!--li><a href="#search" role="tab"><i class="fa fa-search"></i></a></li>
-                <li><a href="#routes" role="tab"><i class="fa fa-car" onclick="layer_on(road)"></i></a></li>
-                <li><a href="#building" role="tab"><i class="fa fa-building" onclick="layer_on(bldg)"></i></a></li-->
+				<li><a href="{{ url_for('static', filename='uplb_sv.html') }}" role="tab"><i class="fas fa-street-view"></i></a></li> 
                 <li><a href="#email_me" role="button" class="fa fa-envelope" class="btn" data-toggle="modal"></a></li>
 				<li><a href="https://twitter.com/UPLBOfficial?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" role="tab"><i class="fa fa-twitter"></i></a></li>
             </ul>
@@ -76,7 +77,7 @@
     </div>
 
     <!-- Information -->
-  <div class="modal fade" id="myModal" role="dialog">
+  <div class="modal fade" id="myInfo" role="dialog">
     <div class="modal-dialog">
 
       <!-- Modal content-->
@@ -86,7 +87,7 @@
           <h4 class="modal-title">How to use this Web Map</h4>
         </div>
         <div class="modal-body">
-          <p>Insert Information Here!</p>
+          <p>This UPLB Campus Web Map is beta version. Please contact UPLB communications office for the Official public realease of the platform. Thank you!</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -106,7 +107,7 @@
           <h4 class="modal-title">We would like to hear from you!</h4>
         </div>
         <div class="modal-body">
-          <p>Please send email to mgmanalili.upd.edu.ph for questions/suggestions</p>
+          <p>Please send email to hilaga.ph@gmail.com for questions/suggestions regarding this web map.</p>
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -119,7 +120,7 @@
     <script>
     $(document).ready(function(){
         $("#myBtn").click(function(){
-            $("#myModal").modal();
+            $("#myInfo").modal();
         });
     });
     </script>
@@ -140,9 +141,18 @@
     <script src="static/data/lmark.geojson"></script>
     <script src="static/data/route.geojson"></script>
     <script src="static/data/struc.geojson"></script>
+    <script src="static/data/atm.geojson"></script>
+    <script src="static/data/bank.geojson"></script>
+    <script src="static/data/cafe.geojson"></script>
+    <script src="static/data/fastfood.geojson"></script>
+    <script src="static/data/internet.geojson"></script>
+    <script src="static/data/library.geojson"></script>
+    <script src="static/data/resto.geojson"></script>
+    <script src="static/data/toilets.geojson"></script>
+    <script src="static/data/waste_basket.geojson"></script>
     <script src="static/lib/leaflet/leaflet.js"></script>
     <script src="static/js/leaflet-search.js"></script>
-    <script src="static/js/searchup.js"></script>
+    <script src="static/js/L.Control.locate.min.js"></script>
     <script src="static/js/map_all.js"></script>
     
 </body>

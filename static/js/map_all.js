@@ -1,12 +1,12 @@
 var map = L.map('map').setView([14.161970, 121.241344], 15);
               
-      L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
-                 attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
-                 maxZoom: 26,
-                 //['streets', 'satellite', dark, light],
-                 id: 'mapbox.streets',
-                 accessToken: 'pk.eyJ1IjoibWlrZWxzcGF0aWFsOTY2NDMiLCJhIjoiY2pmY2tqZWVvMGV1dzJxcGtjNm5nZzV2ZiJ9.1C78c-18Slhiq4d3Nc-c_A'
-                 }).addTo(map);
+L.tileLayer('https://api.tiles.mapbox.com/v4/{id}/{z}/{x}/{y}.png?access_token={accessToken}', {
+           attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://mapbox.com">Mapbox</a>',
+           maxZoom: 26,
+           //['streets', 'satellite', dark, light],
+           id: 'mapbox.streets',
+           accessToken: 'pk.eyJ1IjoibWlrZWxzcGF0aWFsOTY2NDMiLCJhIjoiY2pmY2tqZWVvMGV1dzJxcGtjNm5nZzV2ZiJ9.1C78c-18Slhiq4d3Nc-c_A'
+           }).addTo(map);
 
 var bldg_style = {
 "color": "maroon",
@@ -24,7 +24,15 @@ var road_style = {
 var ComunidadeIcon = L.icon({
   iconUrl: 'static/img/icon/marker-icon-red.png',
   //grey, black, orange
-  iconSize: [25, 41],
+  iconSize: [17, 26],
+  iconAnchor: [16, 37],
+  popupAnchor: [0, -28]
+});
+
+var amenity = L.icon({
+  iconUrl: 'static/img/icon/marker-icon-grey.png',
+  //grey, black, orange
+  iconSize: [17, 26],
   iconAnchor: [16, 37],
   popupAnchor: [0, -28]
 });
@@ -35,11 +43,138 @@ var point = L.geoJson(lmark, {
   }, onEachFeature: onEachFeature
 });
 
+// Amenities //
+
+var am_atm = L.geoJson(atm, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+
+var am_bank = L.geoJson(bank, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+
+var am_cafe = L.geoJson(cafe, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+
+var am_fastfood = L.geoJson(fastfood, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+
+var am_internet = L.geoJson(internet, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+ 
+var am_library = L.geoJson(library, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+
+var am_resto = L.geoJson(resto, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+
+var am_toilets = L.geoJson(toilets, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+
+var am_waste_basket = L.geoJson(waste_basket, {
+  pointToLayer: function (feature, latlng) {
+    return L.marker(latlng, {icon: amenity});
+  },
+     onEachFeature: function (feature, layer) {
+         var popupContent = '<table>';
+        for (var p in feature.properties) {
+            popupContent += '<tr><td>' + p + '</td><td>'+ feature.properties[p] + '</td></tr>';
+        }
+        popupContent += '</table>';
+        layer.bindPopup(popupContent);
+     }
+})
+//end Amenities add //
+
 function onEachFeature(feature, layer) {
   layer.bindPopup(feature.properties.Name);
 }
-
-var popup_opts = '<p style="height:50px; width:50px">ADD PICTURE</p>'; /*edit - cecil*/
 
 var poly = L.geoJson(struc, {
      style: function (feature) {
@@ -59,20 +194,22 @@ var road = L.geoJson(route, {
      }
  });
 
-
 var overlayMaps = {
     "UPLB Buildings": poly,
     "UPLB Landmarks": point,
-    "Jeepney Route": road
+    "Jeepney Route": road,
+    "ATM": am_atm,
+    "Bank": am_bank,
+    "Coffee Shops": am_cafe,
+    "Fastfood": am_fastfood,
+    "Internet": am_internet,
+    "Library": am_library,
+    "Restaurant": am_resto,
+    "Toilets": am_toilets,
+    "Waste Bins": am_waste_basket,
 };
 
 L.control.layers(null, overlayMaps,{position: 'topleft'}).addTo(map);
-
-var building_lyr = L.layerGroup([
-    L.geoJson(route),
-    L.geoJson(lmark),
-    L.geoJson(struc)
-  ]);
 
 var searchControl = new L.Control.Search({
       layer: poly,
@@ -80,6 +217,9 @@ var searchControl = new L.Control.Search({
       initial: false,
       propertyName: 'name',
       circleLocation: true}).addTo(map);
+
+L.control.locate().addTo(map);
+
 
 /* 3D not working
 var osmb = new OSMBuildings(map).load();

@@ -1,0 +1,160 @@
+toilets = {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-15T12:50:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/382833646",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2406747,
+          14.1639063
+        ]
+      },
+      "id": "node/382833646"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790107155",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2459238,
+          14.1600687
+        ]
+      },
+      "id": "node/790107155"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790107161",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "no",
+        "male": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2460498,
+          14.160126
+        ]
+      },
+      "id": "node/790107161"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/839726980",
+        "amenity": "toilets",
+        "fee": "no",
+        "male": "yes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.241665,
+          14.1657931
+        ]
+      },
+      "id": "node/839726980"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/839726981",
+        "amenity": "toilets",
+        "fee": "no",
+        "female": "yes",
+        "male": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2417447,
+          14.1658321
+        ]
+      },
+      "id": "node/839726981"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1166355133",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2419632,
+          14.1713116
+        ]
+      },
+      "id": "node/1166355133"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1510886047",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2653594,
+          14.1757835
+        ]
+      },
+      "id": "node/1510886047"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2389538305",
+        "amenity": "toilets"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2450203,
+          14.1692529
+        ]
+      },
+      "id": "node/2389538305"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/4601125535",
+        "access": "yes",
+        "amenity": "toilets",
+        "diaper": "no",
+        "fee": "no",
+        "male": "yes",
+        "name": "Toilets for Men Only",
+        "toilets:disposal": "flush"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2442407,
+          14.1597843
+        ]
+      },
+      "id": "node/4601125535"
+    }
+  ]
+}

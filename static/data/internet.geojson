@@ -1,0 +1,371 @@
+internet = {
+  "type": "FeatureCollection",
+  "generator": "overpass-ide",
+  "copyright": "The data included in this document is from www.openstreetmap.org. The data is made available under ODbL.",
+  "timestamp": "2018-09-15T12:50:02Z",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/427970537",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Basil",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "name": "Internet @ Demarses"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2447659,
+          14.1682143
+        ]
+      },
+      "id": "node/427970537"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/471322173",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "level": "0",
+        "name": "Insight Computers",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2437764,
+          14.1685737
+        ]
+      },
+      "id": "node/471322173"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/487497369",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "level": "0",
+        "name": "InfoBucks",
+        "opening_hours": "Mo-Su 00:00-06:00, 09:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2444326,
+          14.1690579
+        ]
+      },
+      "id": "node/487497369"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/760872583",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Francisco O. Santos",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "name": "Wi-Net"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2438432,
+          14.1697121
+        ]
+      },
+      "id": "node/760872583"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/760873714",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "level": "0"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2435608,
+          14.1706662
+        ]
+      },
+      "id": "node/760873714"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/790107565",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "name": "Slashdot Internet Cafe",
+        "opening_hours": "Mo-Su 07:00-24:00"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2430819,
+          14.1747233
+        ]
+      },
+      "id": "node/790107565"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/829759477",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Oregano",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "name": "Wave 1 dot 4"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2444557,
+          14.168788
+        ]
+      },
+      "id": "node/829759477"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/829759496",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Ruby",
+        "amenity": "internet_cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2414498,
+          14.1682666
+        ]
+      },
+      "id": "node/829759496"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/945569742",
+        "addr:city": "Los Baños",
+        "addr:housenumber": "10488",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "name": "koinoniadotcom"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2441629,
+          14.1688798
+        ]
+      },
+      "id": "node/945569742"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1426668929",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "level": "0",
+        "name": "Miked Internet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2440537,
+          14.1686858
+        ]
+      },
+      "id": "node/1426668929"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1427892092",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Victoria M. Ela Avenue",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "name": "Rand Computer Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2443381,
+          14.1659245
+        ]
+      },
+      "id": "node/1427892092"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/1427972760",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Los Baños - Bay Road",
+        "amenity": "internet_cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2415878,
+          14.1784154
+        ]
+      },
+      "id": "node/1427972760"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2244679436",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Los Baños - Bay Road",
+        "amenity": "internet_cafe",
+        "name": "Princess Amber Internet"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.251147,
+          14.1766718
+        ]
+      },
+      "id": "node/2244679436"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2365372662",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Bangkal Road",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "name": "V Way Computer Shop"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2430785,
+          14.1780466
+        ]
+      },
+      "id": "node/2365372662"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/2483018605",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Bangkal Road",
+        "amenity": "internet_cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2432674,
+          14.1772569
+        ]
+      },
+      "id": "node/2483018605"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3172175725",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4030",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "name": "Ryukin Net Cafe"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.242148,
+          14.1780047
+        ]
+      },
+      "id": "node/3172175725"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3877677204",
+        "addr:city": "Los Baños",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "level": "0",
+        "name": "Wantoks Place",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2439079,
+          14.1685014
+        ]
+      },
+      "id": "node/3877677204"
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "@id": "node/3877677205",
+        "addr:city": "Los Baños",
+        "addr:housenumber": "10509",
+        "addr:postcode": "4031",
+        "addr:street": "Lopez Avenue",
+        "amenity": "internet_cafe",
+        "internet_access": "terminal",
+        "level": "0",
+        "name": "PC Pro",
+        "phone": "+63-49-5762694",
+        "smoking": "no"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.2438455,
+          14.1685323
+        ]
+      },
+      "id": "node/3877677205"
+    }
+  ]
+}
