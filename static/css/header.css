@@ -2,9 +2,8 @@
 .topnav {
     background-color: maroon;
     overflow: hidden;
+    position: fixed;
 }
-
-/* Style the links inside the navigation bar */
 .topnav a {
     float: left;
     display: block;
@@ -18,7 +17,6 @@
     top:0px;
     bottom:60px;
     height: 60px;*/
-
 }
 
 /* Change the color of links on hover
@@ -27,11 +25,6 @@
     color: black;
 }
 */
-
-/* Add an active class to highlight the current page */
-.active {
-}
-
 /* Hide the link that should open and close the topnav on small screens */
 .topnav .icon {
     display: none;
