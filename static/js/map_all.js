@@ -220,6 +220,12 @@ var searchControl = new L.Control.Search({
 
 L.control.locate().addTo(map);
 
+var sidebar = L.control.sidebar('sidebar', {
+    position: 'left'
+});
+
+map.addControl(sidebar);
+
 
 /* 3D not working
 var osmb = new OSMBuildings(map).load();

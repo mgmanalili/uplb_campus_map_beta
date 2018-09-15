@@ -3,7 +3,7 @@
 <head>
     <title>UPLB Campus Map </title>
     <link rel="icon" href="static/img/uplb1.png"/>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/solid.css" integrity="sha384-VGP9aw4WtGH/uPAOseYxZ+Vz/vaTb1ehm1bwx92Fm8dTrE+3boLfF1SpAtB1z7HW" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/regular.css" integrity="sha384-ZlNfXjxAqKFWCwMwQFGhmMh3i89dWDnaFU2/VZg9CvsMGA7hXHQsPIqS+JIAmgEq" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/brands.css" integrity="sha384-rf1bqOAj3+pw6NqYrtaE1/4Se2NBwkIfeYbsFdtiR6TQz0acWiwJbv1IM/Nt/ite" crossorigin="anonymous">
@@ -15,7 +15,6 @@
     <link rel="stylesheet" href="static/css/leaflet-sidebar.css" />
     <link rel="stylesheet" href="static/css/header.css" />
     <link rel="stylesheet" href="static/css/leaflet-search.css" />
-    <link rel="stylesheet" href="static/css/query.css" />
     <link rel="stylesheet" href="static/css/L.Control.Locate.css" />
     <link rel="stylesheet" href="static/lib/leaflet/leaflet.css"/>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.0.3/leaflet.css" />
@@ -47,10 +46,10 @@
 <body>
 
 	<div class="topnav" id="myTopnav">	
-		<img src="static/img/uplb1.png" height="50px" width="55px" style="float: left; margin-left:3px;margin-top:3px;">
-		<img src="static/img/upsilon1.png" height="45px" width="45px"  style="float: left; margin-left:20px;margin-top:5px;">
+        <img src="static/img/upsilon1.png" height="45px" width="45px"  style="float: left; margin-left:10px;margin-top:5px;">
+		<img src="static/img/uplb1.png" height="50px" width="55px" style="float: left; margin-left:3px;margin-top:3px;margin-right:-3px">
 		<!--img src="img/hilaga.png" height="38px" width="76px"  style="float: left; margin-left:20px;margin-top:7px;"-->
-		<a>UPLB Campus Map</a>
+		<a>U.P. Los Baños Campus Map</a>
 	</div>
 
     <div id="map"></div>
@@ -135,9 +134,8 @@
         crossorigin=""></script>
     <script src='http://cdn.leafletjs.com/leaflet/v0.7.7/leaflet-src.js'></script>
     <script src='https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.1.0/leaflet.js'></script>
-    <script src='https://cdn.osmbuildings.org/OSMBuildings-Leaflet.js'></script>
-    <script src='https://cdn.osmbuildings.org/Leaflet.draw/0.2.0/leaflet.draw.js'></script>
     <script src="static/js/leaflet-color-markers.js"></script> 
+    <script src="static/js/leaflet-sidebar.js"></script> 
     <script src="static/data/lmark.geojson"></script>
     <script src="static/data/route.geojson"></script>
     <script src="static/data/struc.geojson"></script>
