@@ -1,0 +1,18 @@
+Prerequisite:
+
+Create a new instance in GC
+
+Log in to GC console
+virtualenv env
+source env/bin/activate
+git clone https://github.com/mgmanalili/uplb_campus_map_beta.git
+cd uplb_campus_map
+pip install -t lib -r requirements.txt
+
+gcloud init
+gcloud app deploy
+select 2 for South-east asia
+gcloud app browse
+
+(not working for venv)
+pip install -t lib -r requirements.txt --user
